@@ -8,8 +8,6 @@ from alpaca_trade_api.common import URL
 ALPACA_API_KEY = "PKUBQJY8RDT60IH5XUKE"
 ALPACA_SECRET_KEY = "pdiaeEYjfYcf2DmfRPTSueZltIkh68kAnChV8NNz"
 
-
-
 async def print_trade(t):
     print('trade', t)
 
