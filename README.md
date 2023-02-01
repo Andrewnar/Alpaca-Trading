@@ -1,33 +1,38 @@
 # Automated Trading System using Alpaca API
-## Introduction
-The world of financial markets is rapidly changing, and staying ahead of the competition requires the use of advanced technologies and tools. Automated trading systems have become increasingly popular in recent years, as they allow traders to make informed decisions based on real-time market data and analysis. This automated trading system utilizes the Alpaca API to access real-time market data and execute trades on various financial markets.
 
-## Features
-- Access to real-time market data
-- Advanced algorithms and market data analysis
-- Automated trade execution
-- User-friendly and efficient user interface
-- Customizable settings and parameters
-- Notification system for important events
-- Secure and encrypted data management
+This automated trading system is designed to allow traders to buy and sell stocks using the Alpaca API. The system will use advanced algorithms and market data analysis to generate trade signals and execute trades in real-time.
 
-## Requirements
-A computer or mobile device with internet access
-An Alpaca API account
-A preferred programming language for customizing the algorithms (e.g., Python, R)
+## Prerequisites
+- An Alpaca account and API key (https://alpaca.markets/)
+- Python 3.x installed on your system
+- A development environment such as PyCharm or Visual Studio Code
 
-## Getting Started
-1. Register for an Alpaca API account at https://alpaca.markets/.
-2. Clone the repository for the automated trading system from the Github repository.
-3. Follow the instructions in the installation guide to set up the system and connect it to your Alpaca API account.
-4. Customize the algorithms and settings to fit your specific trading needs.
-5. Start executing trades and monitoring your portfolio through the user-friendly interface.
+## Installation
+1. Clone the repository to your local machine: `git clone https://github.com/<your-username>/<project-directory>`
+2. Navigate to the project directory: `cd <"Project Directory">`
+3. Install the required packages: `pip install -r requirements.txt`
+4. Create a file named `secrets.py` in the root directory and add the following code:
 
-## Support
-If you have any questions or issues with the automated trading system, please consult the documentation or open a support ticket.
+```python
+api_key = "<API KEY>"
+secret_key = "<SECRET KEY>"
+```
+Replace `<your Alpaca API key>` and `<your Alpaca secret key>` with your actual Alpaca API and secret keys.
+
+## Usage
+1. Start the trading system by running the following command in the terminal: python `main.py`
+2. The system will begin collecting market data and analyzing it to generate trade signals.
+3. Trades will be executed based on the generated signals and the status of the trades can be monitored through the user interface.
+4. The system can be configured by adjusting the parameters and settings in the `config.py` file.
 
 ## Contributing
-Contributions are welcome and encouraged. If you would like to contribute to the project, please fork the repository and create a pull request.
+If you would like to contribute to the development of this project, please follow the steps below:
+
+1. Fork the repository
+2. Create a new branch for your changes (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push the branch to your fork (`git push origin my-new-feature`)
+5. Create a new pull request
 
 ## License
-This automated trading system is licensed under the MIT License.
+This project is licensed under the MIT License. See the LICENSE file for details.
