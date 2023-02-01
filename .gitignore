@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # utils list of constants
-secrets.py
+config/secrets.py
