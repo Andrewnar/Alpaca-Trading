@@ -7,10 +7,7 @@ from alpaca.trading.requests import MarketOrderRequest
 from alpaca.trading.enums import OrderSide, TimeInForce
 from alpaca_trade_api.common import URL
 from alpaca_trade_api.stream import Stream
-
-API_KEY = "PKUBQJY8RDT60IH5XUKE"
-SECRET_KEY = "pdiaeEYjfYcf2DmfRPTSueZltIkh68kAnChV8NNz"
-BASE_URL = 'https://paper-api.alpaca.markets'
+from util import *
 
 trading_client = TradingClient(API_KEY, SECRET_KEY, paper=True)
 
